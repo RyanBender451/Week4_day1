@@ -14,7 +14,13 @@ namespace Week4_day1
 
         protected string color;
 
-        private bool isGoodToEat;
+        protected bool isGoodToEat;
+
+        public int Legs
+        {
+            get { return this.legs; }
+            set { this.legs = value; }
+        }
         public Animal(int legs, string color)
         {
             this.legs = legs;
