@@ -25,7 +25,6 @@ namespace Week4_day1
             this.legs = legs;
             this.size = size;
             this.weight = weight;
-   
 
         }
         public Animal(int legs, int size, int weight, string color)
@@ -35,6 +34,13 @@ namespace Week4_day1
             this.weight = weight;
             this.color = color;
 
+        }
+        public void printAnimalInfo()
+        {
+            Console.WriteLine("This animal has " + legs + "# of legs");
+            Console.WriteLine("It's size: " + size);
+            Console.WriteLine("It weighs " + weight);
+            Console.WriteLine("And is the color " + color);
         }
     }
 }
