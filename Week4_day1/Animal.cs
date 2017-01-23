@@ -12,13 +12,17 @@ namespace Week4_day1
         private int size;
         private int weight;
 
-        private string color;
+        protected string color;
 
         private bool isGoodToEat;
         public Animal(int legs, string color)
         {
             this.legs = legs;
             this.color = color;
+        }
+        public Animal()
+        {
+
         }
         public Animal(int legs, int size, int weight)
         {

@@ -16,6 +16,9 @@ namespace Week4_day1
 
             animal1.printAnimalInfo();
             animal2.printAnimalInfo();
+
+            Cat cat1 = new Cat("Grumpy", "short", false);
+            cat1.printAnimalInfo();
         }
     }
 }
