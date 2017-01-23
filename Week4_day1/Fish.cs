@@ -15,12 +15,17 @@ namespace Week4_day1
 
         private string waterType;
 
-        public Fish(int fins, bool scales,  bool teeth, string waterType)
+        public Fish(int fins, bool scales,  bool teeth, string waterType):base(0,"silver")
         {
             this.fins = fins;
             this.scales = scales;
             this.teeth = teeth;
             this.waterType = waterType;
+        }
+
+        public void Swim()
+        {
+            Console.WriteLine("Just keep on swimming, just keep on swimming...");
         }
 
     }
