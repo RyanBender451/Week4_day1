@@ -27,6 +27,10 @@ namespace Week4_day1
         {
             Console.WriteLine("Meow!");
         }
-
+        public override void printAnimalInfo()
+        {
+            Console.WriteLine("I am a cat.");
+            base.printAnimalInfo();
+        }
     }
 }

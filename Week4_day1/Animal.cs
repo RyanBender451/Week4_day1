@@ -45,7 +45,7 @@ namespace Week4_day1
             this.color = color;
 
         }
-        public void printAnimalInfo()
+        public virtual void printAnimalInfo()
         {
             Console.WriteLine("This animal has " + legs + " legs");
             Console.WriteLine("It's size is " +  size);
