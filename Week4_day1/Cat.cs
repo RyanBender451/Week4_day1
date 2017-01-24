@@ -31,6 +31,9 @@ namespace Week4_day1
         {
             Console.WriteLine("I am a cat.");
             base.printAnimalInfo();
+            Console.WriteLine("The Breed is " + breed + " cat.");
+            Console.WriteLine("Fur length is " + furLength);
+            Console.WriteLine("Declawed: " + declawed);
         }
     }
 }
